@@ -253,3 +253,23 @@ strong{
     padding: 3px;
     
 }
+
+/*footer*/
+.footer__main
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__main .footer__item
+{
+    width: 247px;
+}
+.footer__main .footer_links
+{
+    font-size: 14px;
+}
+
+div {
+    display: block;
+}
