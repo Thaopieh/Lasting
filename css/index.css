@@ -88,8 +88,8 @@ strong {
 }
 
 .searchBox .hotel-searchBox {
-    max-width: 1160px;
-    min-width: 1160px;
+    max-width: 1100px;
+    min-width: 1100px;
     margin: 0 auto;
     background: #ffffff;
     box-shadow: 0px 8px 20px 0px rgba(15, 41, 77, 0.12);
@@ -279,4 +279,90 @@ strong {
 
     padding: 3px;
 
+}
+
+.inner{
+    padding: 64px 20px 0px;
+    margin: 0 170px;
+}
+
+
+.table-info {
+    max-width: 1180px;
+    margin-bottom: 48px
+}
+
+.table-info h2 {
+    margin-bottom: 24px;
+    font-size: 28px;
+    color: #0f294d;
+    text-align: left;
+    line-height: 34px;
+    font-weight: 700
+}
+
+table{
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #5c6066;
+    border-bottom: 0;
+    border-right: 0;
+    border-spacing: 0;
+    max-width: 1160px;
+}
+
+tbody{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap
+}
+
+tr{
+    border: 1px solid #dadfe6;
+    border-bottom: 1px solid #dadfe6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 102px;
+    padding: 0 10px;
+    flex: 1
+}
+
+table th, table td {
+    word-break: break-all;
+    word-wrap: break-word;
+    padding: 0 20px;
+    color: #0f294d;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+ table th {
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    font-weight: 400
+}
+
+ table td {
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 700
+}
+
+ table a {
+    color: #3264ff;
+    text-decoration: underline
+}
+
+.gride.pc tbody {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
