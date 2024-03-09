@@ -123,8 +123,13 @@ strong {
 .calendar-container {
     border: 1px solid #DADFE6;
 }
-
-.label {}
+#hotel-destination-label{
+    margin: 0;
+    padding-left: 6px;
+}
+.search-container:hover{
+    border-bottom: 3px solid blue;
+}
 
 .ul-search {
     display: flex;
@@ -146,7 +151,7 @@ strong {
     width: 100%;
 }
 
-.list-item list-calendar {}
+
 
 .calendar-container {
     display: flex;
@@ -166,7 +171,7 @@ strong {
 
 .out .text {
     padding-right: 6px;
-    ;
+    
 }
 
 .in {
@@ -181,6 +186,10 @@ strong {
     margin-bottom: 0px;
 }
 
+#hotel-destination{
+    border: none;
+    /* margin-bottom:10px ; */
+}
 #checkIN {
     border: 0px;
     outline: none;
@@ -190,10 +199,27 @@ strong {
     display: block;
 
 }
-
+label{
+    margin: 0;
+}
+#room-guest-text{
+    margin: 0;
+    padding: 1px 2px;
+}
 #checkIn:hover {
     border-bottom: 3px solid blue;
     padding-bottom: 5px;
+}
+
+
+.room-guest-container{
+    height: 100%;
+    width: 100%;
+}
+.room-guest-container:hover{
+    border-bottom: 3px solid blue;
+
+
 }
 
 #time_booking {
