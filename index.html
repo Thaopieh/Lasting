@@ -165,49 +165,49 @@
                                 </div>
                                 <div class="star-rating">
                                     <div class="star-rating-text">Star Rating</div>
-                                    
-                                    <!-- <div class="star-rating-icon"> -->
-                                        <ul class="star">
 
-                                            <li>
-                                                <div>
-                                                    <button>
-                                                        <i class="fa-solid fa-less-than-equal"></i> 2
+                                    <!-- <div class="star-rating-icon"> -->
+                                    <ul class="star">
+
+                                        <li>
+                                            <div>
+                                                <button>
+                                                    <i class="fa-solid fa-less-than-equal"></i> 2
                                                     <i class="fa-regular fa-star"></i>
 
-                                                    </button>
-                                                    
-                                                </div>
-                                           
-                                            </li>
+                                                </button>
 
-                                            <li> 
-                                                <div>
-                                                    <button>
-                                                        3 <i class="fa-regular fa-star"></i>
+                                            </div>
 
-                                                    </button>
-                                                    
-                                                </div>
-                                            </li>
-                                            <li> 
-                                                <div>
-                                                    <button>
-                                                        4 <i class="fa-regular fa-star"></i>
+                                        </li>
+
+                                        <li>
+                                            <div>
+                                                <button>
+                                                    3 <i class="fa-regular fa-star"></i>
+
+                                                </button>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <button>
+                                                    4 <i class="fa-regular fa-star"></i>
 
 
-                                                    </button>
-                                                </div>
-                                            </li>
-                                            <li> 
-                                                <div>
-                                                    <button>
-                                                        5 <i class="fa-regular fa-star"></i>
+                                                </button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <button>
+                                                    5 <i class="fa-regular fa-star"></i>
 
-                                                    </button>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                                </button>
+                                            </div>
+                                        </li>
+                                    </ul>
 
                                     <!-- </div> -->
 
@@ -218,11 +218,343 @@
                     </div>
 
                 </div>
+
                 <!-- phần thân nội dung chính -->
                 <section class="main-container main-content">
 
+
+
                     <div class="filter-wrap">
-                        <!-- Phần filter form của Trinh -->
+                        <div class="map-wrap-v8">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2953513964403!2d106.68289587491869!3d10.788676058967908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f2d1f5cd9e7%3A0xd2284b6940329fcf!2sLa%20Vela%20Saigon%20Hotel!5e0!3m2!1sen!2s!4v1709969026986!5m2!1sen!2s"
+                                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="price-wrap-v8">
+                            <div class="Filter-title">
+                                <p><b>
+                                        Giá (VND)
+                                    </b></p>
+                            </div>
+                            <button>Xóa</button>
+                            <input type="range" min="0" max="4500000" value="2000000" id="price">
+                            <div class="price-range">
+                                <span id="lower-price">VND 1,800,000</span> -
+                                <span id="upper-price">VND 4,500,000+</span>
+                            </div>
+                        </div>
+
+                        <!-- Popular Fiilters -->
+                        <div class="popularFilter-wrap-v8">
+                            <div class="popularFilter-container">
+                                <div class="Filter-title">
+                                    <p><b>
+                                            Popular Filters
+                                        </b></p>
+                                </div>
+                                <ul class="m-checkbox-v8">
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="check-box-1">
+                                        <label for="check-box-1">Bao gồm bữa sáng</label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="check-box-2">
+                                        <label for="check-box-1">Hủy miễn phí</label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="check-box-3">
+                                        <label for="check-box-1">1 giường đôi</label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="check-box-4">
+                                        <label for="check-box-1">Xác nhận nhanh</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Star Rating -->
+                        <div class="rating-wrap-v8">
+                            <div class="rating-container">
+                                <div class="Filter-title">
+                                    <p><b>Đánh giá sao</b></p>
+                                </div>
+                                <div class="rating-content">
+                                    <button class="rating-button">1</button>
+                                    <button class="rating-button">2</button>
+                                    <button class="rating-button">3</button>
+                                    <button class="rating-button">4</button>
+                                    <button class="rating-button">5</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Guest Rating -->
+                        <div class="rating-wrap-v8">
+                            <div class="rating-container">
+                                <div class="Filter-title">
+                                    <p><b>Khách hàng đánh giá</b></p>
+                                </div>
+                                <div class="rating-content">
+                                    <button class="rating-button">3+</button>
+                                    <button class="rating-button">3.5+</button>
+                                    <button class="rating-button">4+</button>
+                                    <button class="rating-button">4.5+</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="display:none"></div>
+
+                        <!-- Locations -->
+                        <div class="location-wrap-v8">
+                            <div class="location-container">
+                                <div class="Filter-title">
+                                    <p><b>Địa điểm</b></p>
+                                </div>
+                                <div class="location-content">
+                                    <ul class="m-radiobox-v8">
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="radio-1">
+                                            <label for="radio-1">Hà Nội</label>
+                                        </li>
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="radio-1">
+                                            <label for="radio-1">Đà Nẵng</label>
+                                        </li>
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="radio-1">
+                                            <label for="radio-1">Thành phố Hồ Chí Minh</label>
+                                        </li>
+                                        <li class="m-radio_item">
+                                            <button class="show-more-button">Show all</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Property Types -->
+                        <div class="category-wrap-v8">
+                            <div class="category-container">
+                                <div class="Filter-title">
+                                    <p><b>
+                                            Loại ở
+                                        </b></p>
+                                </div>
+                                <ul class="m-checkbox-v8">
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="category-check-box-1">
+                                        <label for="category-check-box-1">Khách sạn</label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="category-check-box-2">
+                                        <label for="category-check-box-2">Homestay</label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="category-check-box-3">
+                                        <label for="category-check-box-3">Căn hộ dịch vụ</label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <button class="show-more-button">Show all</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Beds -->
+                        <div class="bed-wrap-v8">
+                            <div class="bed-container">
+                                <div class="Filter-title">
+                                    <p><b>Giường</b></p>
+                                </div>
+                                <div class="bed-content">
+                                    <ul class="m-radiobox-v8">
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="bed-radio-1">
+                                            <label for="radio-1">1 giường đơn</label>
+                                        </li>
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="bed-radio-2">
+                                            <label for="bed-radio-2">2 giường đơn</label>
+                                        </li>
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="bed-radio-3">
+                                            <label for="bed-radio-3">1 giường đôi</label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <button class="show-more-button">Show all</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Property Facilities and Services -->
+                        <div class="amenty-wrap-v8">
+                            <div class="amenty-container">
+                                <div class="Filter-title">
+                                    <p><b>
+                                            Cơ sở vật chất và dịch vụ
+                                        </b></p>
+                                </div>
+                                <ul class="m-checkbox-v8">
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="amenty-check-box-1">
+                                        <label for="amenty-check-box-1">Đưa đón sân bay<label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="amenty-check-box-2">
+                                        <label for="amenty-check-box-2">Wifi công cộng</label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <input type="checkbox" id="amenty-check-box-3">
+                                        <label for="amenty-check-box-3">Dịch vụ đưa đón sân bay</label>
+                                    </li>
+                                    <li class="m-checkbox_item">
+                                        <button class="show-more-button">Show all</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Payment -->
+                        <div class="payment-wrap-v8">
+                            <div class="payment-container">
+                                <div class="Filter-title">
+                                    <p><b>Phương thức thanh toán</b></p>
+                                </div>
+                                <div class="payment-content">
+                                    <ul class="m-radiobox-v8">
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="payment-radio-1">
+                                            <label for="radio-1">Thanh toán online</label>
+                                        </li>
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="payment-radio-2">
+                                            <label for="payment-radio-2">Thanh toán trực tiếp</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Room Features -->
+                        <div class="room-features-wrap-v8">
+                            <div class="room-features-container">
+                                <div class="Filter-title">
+                                    <p><b>Loại phòng</b></p>
+                                </div>
+                                <div class="room-features-content">
+                                    <ul class="m-radiobox-v8">
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="room-features-radio-1">
+                                            <label for="radio-1">Phòng suite</label>
+                                        </li>
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="room-features-radio-2">
+                                            <label for="room-features-radio-2">Phòng gia đình</label>
+                                        </li>
+                                        <li class="m-radiobox_item">
+                                            <input type="radio" id="room-features-radio-3">
+                                            <label for="room-features-radio-3">1 giường đôi</label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <button class="show-more-button">Show all</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display:none"></div>
+
+                        <!-- Room types and Facilities -->
+                        <div class="roomtype-wrap-v8">
+                            <div class="roomtype-container">
+                                <div class="Filter-title">
+                                    <p><b>
+                                            Phòng ở và dịch vụ
+                                        </b></p>
+                                </div>
+                                <div class="roomtype-content">
+                                    <ul class="m-checkbox-v8">
+                                        <li class="m-checkbox_item">
+                                            <input type="checkbox" id="roomtype-check-box-1">
+                                            <label for="roomtype-check-box-1">Điều hòa</label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <input type="checkbox" id="roomtype-check-box-2">
+                                            <label for="roomtype-check-box-2">Ban công</label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <input type="checkbox" id="roomtype-check-box-3">
+                                            <label for="roomtype-check-box-3">Máy giặt</label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <button class="show-more-button">Show all</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="display:none"></div>
+
+                        <!-- Property Features -->
+                        <div class="feature-wrap-v8">
+                            <div class="feature-container">
+                                <div class="Filter-title">
+                                    <p><b>
+                                            Điều kiện
+                                        </b></p>
+                                </div>
+                                <div class="feature-content">
+                                    <ul class="m-checkbox-v8">
+                                        <li class="m-checkbox_item">
+                                            <input type="checkbox" id="feature-check-box-1">
+                                            <label for="feature-check-box-1">Phù hợp với gia đình</label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <input type="checkbox" id="feature-check-box-2">
+                                            <label for="feature-check-box-2">Có suối nước nóng</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Brands -->
+                        <div class="brand-wrap-v8">
+                            <div class="brand-container">
+                                <div class="Filter-title">
+                                    <p><b>
+                                            Thương hiệu
+                                        </b></p>
+                                </div>
+                                <div class="brand-content">
+                                    <ul class="m-checkbox-v8">
+                                        <li class="m-checkbox_item">
+                                            <input type="checkbox" id="brand-check-box-1">
+                                            <label for="brand-check-box-1">City Express By Marriott<label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <input type="checkbox" id="brand-check-box-2">
+                                            <label for="brand-check-box-2">Four Points</label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <input type="checkbox" id="brand-check-box-3">
+                                            <label for="brand-check-box-3">Hamton of Hilton</label>
+                                        </li>
+                                        <li class="m-checkbox_item">
+                                            <button class="show-more-button">Show all</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     </div>
 
                     <!-- Phần item bên phải của Thuận, Thảo -->
@@ -236,6 +568,7 @@
                     </ul>
 
                 </section>
+
             </article>
         </section>
 
@@ -253,11 +586,11 @@
                 <a href="">More Service Info</a><br>
                 <a href="">Website Feedback</a><br>
                 <i class="fa fa-facebook-official" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            <i class="fa fa-telegram" aria-hidden="true"></i>
-    
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <i class="fa fa-telegram" aria-hidden="true"></i>
+
             </div>
             <div class="footer__item">
                 <h3>About</h3>
@@ -270,16 +603,16 @@
             </div>
             <div class="footer__item"></div>
             <div class="footer__item"></div>
-            
-    
+
+
         </div>
         <div class="Copyright">
-                <p>
-    
-                </p>
+            <p>
+
+            </p>
         </div>
-    
-        </footer>
+
+    </footer>
 
 </body>
 

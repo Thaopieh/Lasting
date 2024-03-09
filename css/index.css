@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     font-weight: normal;
@@ -7,83 +8,91 @@ html, body {
     padding: 0px;
     margin: 0px;
 }
-ul{
+
+ul {
     list-style: none;
 }
 
 
 
 /* body  */
- /* header  */
- 
-.navi{
+/* header  */
+
+.navi {
     background-color: rgb(48, 93, 209);
 }
 
-.navi a{
+.navi a {
     color: white;
 }
-.nav-item{
+
+.nav-item {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
-.navi li:hover a{
+
+.navi li:hover a {
     color: white;
     border-bottom: 2px solid white;
 }
 
-.navi2 li:hover a{
+.navi2 li:hover a {
     color: white;
     background-color: rgba(255, 255, 255, 0.5);
 }
-.header-search-booking-btn{
+
+.header-search-booking-btn {
     height: 100%;
     border: none;
     margin-right: 10px;
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    background-color: hsla(0,0%,100%,.3);
+    background-color: hsla(0, 0%, 100%, .3);
     /* opacity: 50%; */
     color: #ffffff;
     border-radius: 4px;
 }
-.header-register-btn{
+
+.header-register-btn {
     height: 100%;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     border-radius: 4px;
 }
-.header-register-btn:hover{
+
+.header-register-btn:hover {
     color: #3264ff
 }
+
 .btn1 {
     background-color: white;
 }
 
-.search{
+.search {
     margin: 10px;
 }
 
 
 
-strong{
+strong {
     font-size: 14px;
 }
 
 /* searcg bar  */
-.hotel-list-page{
+.hotel-list-page {
     background-image: url("https://pages.trip.com/Hotels/images/V8HomePageBackGround.webp");
     height: 500px;
     position: relative;
 }
-.searchBox .hotel-searchBox{
+
+.searchBox .hotel-searchBox {
     max-width: 1160px;
     min-width: 1160px;
     margin: 0 auto;
     background: #ffffff;
-    box-shadow: 0px 8px 20px 0px rgba(15,41,77,0.12);
+    box-shadow: 0px 8px 20px 0px rgba(15, 41, 77, 0.12);
     box-sizing: border-box;
     border-radius: 8px;
     padding: 24px 16px;
@@ -100,28 +109,31 @@ strong{
     box-sizing: border-box;
     border-radius: 4px;
     height: 56px;
-    
+
 }
 
-.calendar-container{
+.calendar-container {
     border-radius: 4px;
-    width: 100%; 
+    width: 100%;
 
 }
-.searchBox  .list-destination, .searchBox  .rooms-and-guests, .calendar-container  {
+
+.searchBox .list-destination,
+.searchBox .rooms-and-guests,
+.calendar-container {
     border: 1px solid #DADFE6;
 }
-.label{
 
-}
-.ul-search{
+.label {}
+
+.ul-search {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     height: 70px;
     align-items: center;
 }
 
-.calendar-container{
+.calendar-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -129,42 +141,48 @@ strong{
 
 }
 
-.searchButton{
+.searchButton {
     margin-right: 10px;
     width: 100%;
 }
-.list-item list-calendar{
 
+.list-item list-calendar {}
 
-}
-.calendar-container{
-    display:flex;
+.calendar-container {
+    display: flex;
     height: 100%;
     align-items: center;
     padding: 0 12px;
-   
+
 }
-.calendar-container:hover{
+
+.calendar-container:hover {
     border-bottom: 3px solid blue;
 }
-.in .text{
+
+.in .text {
     padding-left: 6px;
 }
-.out .text{
-    padding-right: 6px; ;
+
+.out .text {
+    padding-right: 6px;
+    ;
 }
-.in{
-    padding:0 12px;
+
+.in {
+    padding: 0 12px;
     width: 120px;
     padding-left: 0px;
 }
-.text{
+
+.text {
     font-size: 12px;
     color: gray;
     margin-bottom: 0px;
 }
-#checkIN{
-    border:0px;
+
+#checkIN {
+    border: 0px;
     outline: none;
     font-size: 14px;
     color: black;
@@ -172,25 +190,29 @@ strong{
     display: block;
 
 }
-#checkIn:hover{
+
+#checkIn:hover {
     border-bottom: 3px solid blue;
     padding-bottom: 5px;
 }
-#time_booking{
+
+#time_booking {
     font-size: 12px;
     color: gray;
     margin: 0px 16px;
 
 
 }
-.out{
+
+.out {
     text-align: end;
     width: 110px;
 
 }
-#checkOut{
+
+#checkOut {
     display: block;
-    border:0px;
+    border: 0px;
     outline: none;
     font-size: 14px;
     color: black;
@@ -199,27 +221,29 @@ strong{
     width: 100%;
 }
 
-.rooms-and-guests-container{
+.rooms-and-guests-container {
     min-width: 295px;
 
 }
-.rooms-and-guests{
+
+.rooms-and-guests {
     padding: 0 12px;
 }
-.rooms-and-guests-text{
+
+.rooms-and-guests-text {
     font-weight: 600;
-    padding-bottom:  1px;
+    padding-bottom: 1px;
     margin-bottom: 0;
 }
 
-.rooms-and-guests-container:hover{
+.rooms-and-guests-container:hover {
     border-bottom: 3px solid blue;
     padding-bottom: 5px;
 }
 
 
 
-.search-button{
+.search-button {
     font-size: 18px;
     font-weight: 700;
     height: 56px;
@@ -231,25 +255,117 @@ strong{
     border: 0px;
 }
 
-.star, .add-on-container {
+.star,
+.add-on-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     /* margin: 0 50px; */
 }
 
-.star-rating{
+.star-rating {
     display: flex;
-    justify-content:baseline;
+    justify-content: baseline;
     align-items: center;
 }
-.star{
+
+.star {
     margin: 0;
 }
-.star-rating li{
+
+.star-rating li {
 
     margin: 5px;
-    
+
     padding: 3px;
-    
+
+}
+
+.map-wrap-v8 .price-wrap-v8 .popularFilter-wrap-v8 .rating-wrap-v8 .locations-wrap-v8 .category-wrap-v8 .bed-wrap-v8 .amenty-wrap-v8 .payment-wrap-v8 .room-features-wrap-v8 .roomtype-wrap-v8 .feature-wrap-v8 .brand-wrap-v8 {
+    background: #fff;
+    position: relative;
+    display: flex;
+    padding: 16px 8px 8px 8px;
+    margin-bottom: 2px;
+}
+
+.popularFilter-wrap-v8 .popularFilter-container .category-container .amenty-container .location-container {
+    width: 266px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.popularFilter-wrap-v8 .Filter-title .rating-wrap-v8 {
+    font-size: 14px;
+    color: #0F294D;
+    line-height: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.m-checkbox-v8 .m-checkbox_item {
+    display: flex;
+    cursor: pointer;
+    padding-left: 5px;
+    /* position: relative; */
+    padding-bottom: 0;
+    line-height: 32px;
+}
+
+.rating-wrap-v8 .rating-container {
+    width: 100%;
+    /* padding: 16px; */
+}
+
+.rating-wrap-v8 .rating-container .rating-title {
+    font-size: 14px;
+    color: #0F294D;
+    line-height: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-wrap-v8 .rating-container .rating-content .sr-ul .sr-li {
+    display: inline-flex;
+    margin-right: 4px;
+    justify-content: center;
+    background: #F5F7FA;
+    width: 58px;
+    height: 30px;
+    border-radius: 4px 4px 4px 4px;
+    transition: all 0.4s;
+}
+
+
+.rating-button {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.show-more-button {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 1;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.m-radiobox-v8 .m-radiobox_item {
+    float: left;
+    display: flex;
+    cursor: pointer;
+    width: 100%;
 }
