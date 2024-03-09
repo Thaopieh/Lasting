@@ -66,14 +66,7 @@ ul{
     margin: 10px;
 }
 
-.pos{
-    float: left;
-    margin-right: 5px;
-}
 
-.pos:hover {
-    border-bottom: 1px solid rgb(65, 65, 244);
-}
 
 strong{
     font-size: 14px;
@@ -238,4 +231,25 @@ strong{
     border: 0px;
 }
 
+.star, .add-on-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* margin: 0 50px; */
+}
 
+.star-rating{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+}
+.star{
+    margin: 0;
+}
+.star-rating li{
+
+    margin: 5px;
+    
+    padding: 3px;
+    
+}
