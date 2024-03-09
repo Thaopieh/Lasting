@@ -8,7 +8,7 @@
 
     <!-- icon  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bt  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -16,6 +16,7 @@
 
         <!-- main  -->
         <link rel="stylesheet" href="./css/index.css">
+
 
 
 </head>
@@ -74,8 +75,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">VND</a>
                             </li>
-                            <button type="button" class="btn btn-outline-primary btn1">Search Booking</button>
-                            <button type="button" class="btn btn-primary">Register</button>
+                            <li class="nav-item ">
+                                <button type="button" class="header-search-booking-btn" >Search Booking</button>
+                            </li>
+                            <li class="nav-item ">
+                                <button type="button" class="header-register-btn" >Sign in / Register</button>
+                            </li>
+                           
 
                         </ul>
 
@@ -90,7 +96,7 @@
         </div>
 
     </header>
-
+<!-- Header search -->
     <section id="hotel_container">
         <section>
             <article>
@@ -101,9 +107,9 @@
                             <ul class="ul-search">
                                 <li class="list-item list-destination">
                                     <div class="search-container">
-                                        <label for="hotels-destination">Destination</label>
+                                        <label for="hotel-destination" id="hotel-destination-label">Destination</label>
                                         <div></div>
-                                        <input type="text" id="hotels-destination" value="Hà Nội"
+                                        <input type="text" id="hotel-destination" value=""
                                             placeholder="City, airport, region...">
                                         <div></div>
                                     </div>
@@ -111,48 +117,56 @@
                                 <li class="list-item list-calendar">
                                     
                                         <div class="calendar-container">
-                                            
                                                 <div class="in">
-                                                    <label class="in" for="checkIn">Check In</label>
-                                                    <div></div>
-                                                    <input type="text" id="checkIN" value="Thur, Mar, 7"
+                                                    <label class="text" for="checkIn">Check-in</label>
+                                                    <input type="text" id="checkIN" value="Wed, Mar 13"
                                                         placeholder="Select date">
                                                 </div>
-                                                
                                                 <div id="time_booking"> 1 night</div>
                                                 <div class="out"> 
-                                                    <label class="out" for="checkOut">Check Out</label>
-                                                    <div></div>
-                                                    <input type="text" id="checkIN" value="Fri, Mar, 8"
+                                                    <label class="text" for="checkOut">Check-out</label>
+                                                
+                                                    <input type="text" id="checkOut" value="Fri, Mar 8"
                                                         placeholder="Select date">
                                                 </div>                                           
-    
-
-                                            
                                         </div>
-
-                                    
                                 </li>
                                 <li  class="list-item rooms-and-guests">
-                                    <div>
-                                        <label class="" for="rooms-and-guests">Rooms and Guests</label>
-                                        <div></div>
-                                        <p>
+                                    <div class="rooms-and-guests-container">
+                                        <label class="text" for="rooms-and-guests">Rooms and Guests</label>
+                                        <p class="rooms-and-guests-text " >
                                             <span>1 room</span>
                                             <span>2 adults</span>
                                             <span>0 children</span>
                                         </p>
                                     </div>
-
-
                                 </li>
                                 <li class="list-item button">
-                                    <div class="searchButton">
-                                        
-                                        <button><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></button>
+                                    <div class="search-button-container" >
+                                        <button class="search-button">
+                                            <i type="search" class="fa fa-search"></i>
+                                            <span >Search</span>
+                                        </button>
                                     </div>
                                 </li>
                             </ul>
+                            <div class="add-on-container">
+                                <div class="is-travel-working">
+                                    <input type="checkbox" id="travel-for-work">
+                                    <label for="travel-for-work" class="is-travel-working-text">I'm traveling for work</label>
+                                    <i class="is-travel-working-icon fa-solid fa-circle-info">
+                                        <div class="is-travel-working-status">
+                                            If you select this option, we'll highlight hotels and amenities popular with business travelers.
+                                        </div>
+                                    </i>
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="star-rating">
+                                    <div class="star-rating-text">Star Rating</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -184,6 +198,25 @@
 
     <!-- Hiep Thuan -->
     <footer>
+    <div class="footer__main">
+        <div class="footer__item">
+            <h3>Contact Us</h3>
+            <a href="">Customer Support</a><br>
+            <a href="">Service Guarantee</a><br>
+            <a href="">More Service Info</a><br>
+            <a href="">Website Feedback</a>
+
+        </div>
+        <div class="footer__item"></div>
+        <div class="footer__item"></div>
+        <div class="footer__item"></div>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        <i class="fa fa-telegram" aria-hidden="true"></i>
+
+    </div>
 
     </footer>
 
